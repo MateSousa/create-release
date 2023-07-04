@@ -1,0 +1,10 @@
+name: Push to Registry
+type: codeDockerize
+description: Pushes the docker image to a registry
+registry: ""
+username: ""
+password: ""
+image: ""
+tag: ""
+dockerfilePath: Dockerfile
+buildContextPath: .
